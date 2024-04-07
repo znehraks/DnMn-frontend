@@ -301,4 +301,6 @@ const designSystem = {
   dimensions,
 };
 
+type ColorKeys = keyof typeof designSystem.colors.lightTheme;
+export type { ColorKeys };
 export default designSystem;
